@@ -6,7 +6,7 @@ export function Hero() {
         Dress with conviction. <span>Smile on purpose.</span>
       </h1>
       <p className="hero-copy">
-        Fig Leaf Fits is building premium apparel where you wear your faith on your sleeve.
+        FigLeaf Fits is building premium apparel where you wear your faith on your sleeve.
       </p>
       <div className="coming-chip" role="status" aria-label="Launch status">
         Coming Spring 2026

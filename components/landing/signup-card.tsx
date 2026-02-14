@@ -202,7 +202,7 @@ export function SignupCard({
 
       {state === "success" ? (
         <div className="thank-you-note" role="status" aria-live="polite">
-          Thank you for signing up. You are officially on the Fig Leaves Fits waitlist.
+          Thank you for signing up. You are officially on the FigLeaf Fits waitlist.
         </div>
       ) : null}
 
