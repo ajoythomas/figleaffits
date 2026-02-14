@@ -1,6 +1,8 @@
 import { Hero } from "@/components/landing/hero";
 import { SignupCard } from "@/components/landing/signup-card";
 
+export const runtime = "edge";
+
 interface HomeProps {
   searchParams?: {
     signup?: string | string[];

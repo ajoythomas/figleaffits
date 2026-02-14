@@ -3,6 +3,7 @@ import { NextResponse } from "next/server";
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export const dynamic = "force-dynamic";
+export const runtime = "edge";
 
 type WebhookPayload = {
   email: string;
