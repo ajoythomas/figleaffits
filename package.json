@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cf:build": "npx @opennextjs/cloudflare@latest build",
+    "cf:deploy": "npx wrangler@latest deploy"
   },
   "dependencies": {
     "next": "13.4.19",

@@ -1,0 +1,10 @@
+{
+  "name": "figleaffits",
+  "main": ".open-next/worker.js",
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "compatibility_date": "2026-02-14",
+  "compatibility_flags": ["nodejs_compat"]
+}
