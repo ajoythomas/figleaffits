@@ -8,6 +8,7 @@ Use this when deploying from the "Create a Worker" flow where both Build and Dep
 
 ## Required files already added
 - `wrangler.jsonc`
+- `open-next.config.ts`
 - `package.json` scripts `cf:build` and `cf:deploy`
 
 ## Environment variables in Cloudflare
@@ -17,3 +18,4 @@ Set in Worker/Project settings:
 ## Notes
 - This flow builds a Worker entrypoint at `.open-next/worker.js`.
 - Wrangler deploy then uploads the Worker + static assets from `.open-next/assets`.
+- `cf:build` is pinned to `@opennextjs/cloudflare@1.14.10` for compatibility with this Next.js 13 project.

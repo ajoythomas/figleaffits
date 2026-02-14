@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "cf:build": "npx @opennextjs/cloudflare@latest build",
+    "cf:build": "npx @opennextjs/cloudflare@1.14.10 build",
     "cf:deploy": "npx wrangler@latest deploy"
   },
   "dependencies": {
